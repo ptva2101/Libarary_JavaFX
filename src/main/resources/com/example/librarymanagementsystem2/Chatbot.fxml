@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane prefHeight="500" prefWidth="400" styleClass="root" stylesheets="@chatBot-style.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.librarymanagementsystem2.ChatBotController">
+
+    <padding>
+        <Insets bottom="10" left="10" right="10" top="10" />
+    </padding>
+
+    <VBox alignment="CENTER" spacing="10" StackPane.alignment="CENTER">
+        <Label style="-fx-font-size: 18px;" styleClass="title-label" stylesheets="@chatBot-style.css" text="Chat with Snakebot" />
+
+        <TextArea fx:id="chatArea" style="-fx-font-family: 'Arial';" styleClass="chat-area" stylesheets="@chatBot-style.css" wrapText="true" VBox.vgrow="ALWAYS">
+        </TextArea>
+
+        <HBox spacing="10">
+            <TextField fx:id="inputField" promptText="Type your message here..." styleClass="input-field" stylesheets="@dashboardDesign.css" HBox.hgrow="ALWAYS" />
+
+            <Button fx:id="sendButton" defaultButton="true" prefHeight="33.0" prefWidth="71.0" styleClass="send-button" stylesheets="@chatBot-style.css" text="Send" />
+        </HBox>
+    </VBox>
+
+</StackPane>

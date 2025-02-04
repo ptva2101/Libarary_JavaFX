@@ -1,0 +1,83 @@
+.root {
+    -fx-primary-color: #A8D8EA;
+    -fx-secondary-color: #71C9CE;
+    -fx-background-color: #E3F6F5;
+    -fx-text-color: #2B6777;
+}
+
+.main-background {
+    -fx-background-color: -fx-background-color;
+}
+
+.content-box {
+    -fx-background-color: rgba(255, 255, 255, 0.9);
+    -fx-background-radius: 10;
+    -fx-padding: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 2);
+}
+
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-family: 'Arial';
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-text-color;
+}
+
+.chat-area {
+    -fx-background-color: white;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-font-family: 'Arial';
+    -fx-font-size: 14px;
+    -fx-text-fill: -fx-text-color;
+    -fx-border-color: -fx-primary-color;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.input-field {
+    -fx-background-color: white;
+    -fx-border-color: -fx-primary-color;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-family: 'Arial';
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #999999;
+}
+
+.send-button {
+    -fx-background-color: -fx-secondary-color;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-padding: 8 15 8 15;
+}
+
+.send-button:hover {
+    -fx-background-color: derive(-fx-secondary-color, 10%);
+}
+
+.send-button:pressed {
+    -fx-background-color: derive(-fx-secondary-color, -10%);
+}
+
+/* Tùy chỉnh thanh cuộn */
+.chat-area .scroll-bar:vertical,
+.chat-area .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+.chat-area .scroll-bar:vertical .thumb,
+.chat-area .scroll-bar:horizontal .thumb {
+    -fx-background-color: -fx-primary-color;
+    -fx-background-radius: 5;
+}
+
+.chat-area .scroll-bar:vertical .track,
+.chat-area .scroll-bar:horizontal .track {
+    -fx-background-color: transparent;
+}

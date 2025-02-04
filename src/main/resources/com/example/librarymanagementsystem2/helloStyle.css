@@ -1,0 +1,5 @@
+.root {
+    -fx-background-image: url('pictureStyle/Start.png');
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}

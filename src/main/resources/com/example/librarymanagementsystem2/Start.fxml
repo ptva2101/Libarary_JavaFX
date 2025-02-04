@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" stylesheets="@helloStyle.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.librarymanagementsystem2.StartController">
+    <children>
+        <Button layoutX="642.0" layoutY="29.0" mnemonicParsing="false" onAction="#switchToAdminLogin" prefHeight="37.0" prefWidth="118.0" style="-fx-background-color: transparent; -fx-cursor: hand;" />
+        <Button layoutX="837.0" layoutY="21.0" mnemonicParsing="false" onAction="#switchToUserLogin" prefHeight="46.0" prefWidth="111.0" style="-fx-cursor: hand; -fx-background-color: transparent;" />
+    </children>
+</AnchorPane>
