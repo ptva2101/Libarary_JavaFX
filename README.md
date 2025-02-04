@@ -41,7 +41,7 @@ The application is designed for librarians to manage their library. The applicat
   6. To logout account click the out icon in the bottom-left of the scence. To exit app click the exit icon in the right-top. 
 
 ## Demo
-
+https://www.youtube.com/watch?v=jmxcAqNuoUQ&list=PLzl1Nbe68cBAbmj5V9xUi8aWkKp-GsThL
 ## Future improvements
   1. Add book comments
   2. Add the user's wishlist/favorite books.
